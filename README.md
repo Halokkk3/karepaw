@@ -10,7 +10,7 @@ Open `dist/index.html` in a browser. The site uses relative asset paths and does
 
 - Six pet product categories, including an elevated mesh pet cot.
 - Custom options for size, material, color, logo, and packaging.
-- MOQ: 100 pieces per product; quantities cannot be combined across products.
+- MOQ: 100 pieces per product; quantities are not combined across products.
 - Sample service, standard testing and certification documents, supplier screening, product assortment planning, quality inspection, and export logistics.
 - Inquiry form drafts an email to `sales01@karepaw.com`; the visitor must send it from their mail app.
 
