@@ -12,3 +12,67 @@
 .whatsapp-float:focus-visible,.contact-whatsapp-inline:focus-visible{outline:3px solid #e47e5e;outline-offset:4px}
 .toast{bottom:84px}
 @media(max-width:720px){.whatsapp-float{right:14px;bottom:14px;padding:12px 15px;font-size:11px}.whatsapp-float svg{width:18px;height:18px}.toast{bottom:76px}}
+
+/* Readability pass: raise supporting copy and controls for desktop and mobile. */
+body{font-size:16px;line-height:1.65}
+.announcement{font-size:12px;letter-spacing:.03em}
+.main-nav a{font-size:14px}
+.button{font-size:13px}
+.text-link,.product-link{font-size:13px}
+.hero-lede{font-size:18px;line-height:1.7}
+.hero-facts b{font-size:16px}.hero-facts span{font-size:12px}
+.hero-note b{font-size:13px}.hero-note small{font-size:12px}
+.hero-sticker span{font-size:10px}.hero-sticker b{font-size:12px}
+.scroll-cue{font-size:11px}
+.intro-label{font-size:12px}.intro-copy p{font-size:16px}
+.section-heading-side p{font-size:15px}
+.category-tab{font-size:13px}
+.image-index{font-size:11px}
+.product-meta{font-size:11px;letter-spacing:.06em}
+.product-card>p{font-size:14px;line-height:1.7}
+.product-footnote{font-size:13px;line-height:1.65}
+.custom-copy>p{font-size:15px;line-height:1.75}
+.custom-options b{font-size:13px}.custom-options small{font-size:12px}
+.custom-bottom>span{font-size:13px}
+.sourcing-title>p{font-size:14px}
+.service-number{font-size:12px}.service-main p{font-size:14px;line-height:1.7}
+.sourcing-note{font-size:13px}
+.process-heading>p{font-size:14px}.step-number{font-size:12px}
+.process-steps p{font-size:14px;line-height:1.7}
+.process-bottom>span{font-size:13px}
+.quote-intro>p{font-size:15px}.quote-aside p{font-size:13px}
+.form-top{font-size:11px}.field-label{font-size:13px}.field-label small{font-size:12px}
+.quote-form input:not([type=checkbox]),.quote-form select,.quote-form textarea{font-size:14px}
+.check-grid label{font-size:12px}.form-status{font-size:12px}
+.footer-main>p{font-size:14px}.footer-links a{font-size:12px}.footer-bottom{font-size:12px}
+.contact-email{font-size:14px}.contact-whatsapp-inline{font-size:13px}.whatsapp-float{font-size:14px}
+@media(max-width:720px){
+ .announcement{font-size:11px}
+ .hero-lede{font-size:16px}
+ .hero-actions .text-link{font-size:13px}
+ .hero-facts b{font-size:14px}.hero-facts span{font-size:11px}
+ .hero-note b{font-size:12px}.hero-note small{font-size:11px}
+ .hero-sticker span{font-size:9px}.hero-sticker b{font-size:11px}
+ .intro-label{font-size:11px}.intro-copy p{font-size:15px}
+ .category-tab{font-size:12px}
+ .product-meta{font-size:10px;letter-spacing:.03em}
+ .product-card h3{font-size:17px}
+ .product-card>p{font-size:13px}
+ .product-link{font-size:12px}
+ .product-footnote{font-size:12px}
+ .custom-copy>p{font-size:14px}
+ .custom-options b{font-size:12px}.custom-options small{font-size:11px}
+ .custom-bottom>span{font-size:12px}
+ .sourcing-title>p{font-size:14px}
+ .service-number{font-size:11px}.service-main h3{font-size:14px}.service-main p{font-size:12px}
+ .sourcing-note{font-size:12px}
+ .process-heading>p{font-size:14px}.step-number{font-size:11px}
+ .process-steps h3{font-size:15px}.process-steps p{font-size:12px}
+ .process-bottom>span{font-size:12px}
+ .quote-intro>p{font-size:14px}.quote-aside p{font-size:12px}
+ .field-label{font-size:13px}.field-label small{font-size:12px}
+ .quote-form input:not([type=checkbox]),.quote-form select,.quote-form textarea{font-size:16px}
+ .check-grid label{font-size:12px}.form-status{font-size:12px}
+ .footer-main>p{font-size:13px}.footer-links a{font-size:12px}.footer-bottom{font-size:11px}
+ .whatsapp-float{font-size:13px}
+}
