@@ -76,3 +76,8 @@ body{font-size:16px;line-height:1.65}
  .footer-main>p{font-size:13px}.footer-links a{font-size:12px}.footer-bottom{font-size:11px}
  .whatsapp-float{font-size:13px}
 }
+
+/* Small section labels remain legible without competing with headings. */
+.eyebrow{font-size:11px}
+.brand-name small{font-size:9px}
+@media(max-width:720px){.eyebrow{font-size:10px}.brand-name small{font-size:8px}}
