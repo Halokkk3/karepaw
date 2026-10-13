@@ -124,3 +124,14 @@ body{font-size:16px;line-height:1.65}
 .footer-bottom{border-top-color:var(--line);color:#7c867e}
 .footer-bottom a{color:var(--green)}
 @media(max-width:720px){.brand-symbol img{width:43px;height:43px}}
+
+/* Keep the new KP mark clear of the wordmark. */
+.brand-lockup{width:260px;gap:10px;overflow:visible}
+.brand-symbol{display:grid;place-items:center;flex:0 0 54px;width:54px;height:42px;overflow:visible}
+.brand-symbol img{display:block;width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}
+.brand-wordmark{flex:1;min-width:0;padding:3px 0 3px 5px}
+.brand-wordmark img{width:100%;height:34px;object-fit:contain;transform:none;mix-blend-mode:multiply}
+.brand-tagline{width:260px}
+.brand-footer.brand-new{min-width:260px}
+@media(max-width:980px){.brand-lockup{width:225px}.brand-tagline{width:225px}.brand-symbol{flex-basis:48px;width:48px}}
+@media(max-width:720px){.brand.brand-new{min-width:205px;width:205px}.brand-lockup{width:205px;height:40px;gap:8px}.brand-symbol{flex-basis:42px;width:42px;height:34px}.brand-symbol img{width:42px;height:34px}.brand-wordmark img{height:28px}.brand-tagline{width:205px;font-size:9.5px}.brand-footer.brand-new{min-width:226px}}
