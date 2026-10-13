@@ -103,3 +103,5 @@ body{font-size:16px;line-height:1.65}
 .brand-tagline{font-size:9.5px}
 @media(max-width:980px){.brand-tagline{font-size:9px}}
 @media(max-width:720px){.brand-tagline{font-size:8.5px}}
+
+@media(max-width:720px){.brand.brand-new{min-width:205px;width:205px}.brand-lockup{width:205px}.brand-tagline{width:205px;font-size:9.5px}}
