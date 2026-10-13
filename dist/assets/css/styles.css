@@ -86,3 +86,16 @@ body{font-size:16px;line-height:1.65}
 .submit-button:disabled{opacity:.7;cursor:wait}
 .form-status a{color:var(--green);font-weight:700;text-decoration:underline;text-underline-offset:2px}
 .form-status a:hover{color:var(--coral)}
+
+/* Karepaw wordmark and strapline */
+.brand.brand-new{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:2px;min-width:226px;width:226px}
+.brand-lockup{width:226px;height:42px;display:flex;align-items:center;overflow:hidden;background:#fff;border-radius:3px}
+.brand-symbol{display:grid;place-items:center;flex:0 0 43px;width:43px;height:42px;background:#fff}
+.brand-symbol img{display:block;width:40px;height:40px;object-fit:contain}
+.brand-wordmark{display:grid;place-items:center;flex:1;height:100%;min-width:0;padding:3px 7px 3px 1px;background:#fff}
+.brand-wordmark img{display:block;width:100%;height:34px;object-fit:contain}
+.brand-tagline{display:block;width:226px;overflow:hidden;white-space:nowrap;text-align:center;font-family:var(--sans);font-size:9px;font-weight:700;line-height:1.2;letter-spacing:.01em;color:#42534a}
+.brand-footer.brand-new{min-width:226px}
+.brand-footer .brand-tagline{color:#d2ddd3}
+@media(max-width:980px){.brand.brand-new{min-width:205px;width:205px}.brand-lockup{width:205px}.brand-tagline{width:205px;font-size:8.5px}}
+@media(max-width:720px){.brand.brand-new{min-width:178px;width:178px;gap:1px}.brand-lockup{width:178px;height:34px}.brand-symbol{flex-basis:36px;width:36px;height:34px}.brand-symbol img{width:33px;height:33px}.brand-wordmark img{height:28px}.brand-tagline{width:178px;font-size:7.4px}.brand-footer.brand-new{min-width:226px;width:226px}}
